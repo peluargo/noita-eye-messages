@@ -83,3 +83,5 @@ gun_names = [
     "Bitcoin",
     "Online"
 ]
+
+gun_names = sorted(gun_names)
