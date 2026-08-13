@@ -1,7 +1,7 @@
 from processors.base_processor import BaseProcessor
 from input import messages_as_base_10, gun_names
 
-LETTER_INDEX = 4 # 0-10 (longest gun name is 10 characters long)
+LETTER_INDEX = 4 # 0-10 (longest gun name is 11 characters long)
 FALLBACK_CHARACTER = " " # character to use when the gun name is too short
 
 class Processor(BaseProcessor):
